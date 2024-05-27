@@ -1,3 +1,89 @@
 <resources>
+    <
     <string name="app_name">Design Pattern Flashcards</string>
+    <!-- Source: https://en.wikipedia.org/wiki/Design_Patterns -->
+    <!-- Creational patterns -->
+    <string name="abstract_factory">Abstract factory</string>
+    <string name="builder">Builder</string>
+    <string name="factory_method">Factory method</string>
+    <string name="prototype">Prototype</string>
+    <string name="singleton">Singleton</string>
+    <!-- Structural patterns -->
+    <string name="adapter">Adapter</string>
+    <string name="bridge">Bridge</string>
+    <string name="composite">Composite</string>
+    <string name="decorator">Decorator</string>
+    <string name="facade">Facade</string>
+    <string name="flyweight">Flyweight</string>
+    <string name="proxy">Proxy</string>
+    <!-- Behavioral patterns -->
+    <string name="chain_of_responsibility">Chain of responsibility</string>
+    <string name="command">Command</string>
+    <string name="interpreter">Interpreter</string>
+    <string name="iterator">Iterator</string>
+    <string name="mediator">Mediator</string>
+    <string name="memento">Memento</string>
+    <string name="observer">Observer</string>
+    <string name="state">State</string>
+    <string name="strategy">Strategy</string>
+    <string name="template_method">Template method</string>
+    <string name="visitor">Visitor</string>
+    <!-- Patterns end -->
+
+    <!-- Source: https://en.wikipedia.org/wiki/Design_Patterns -->
+    <!-- Creational patterns -->
+    <string name="abstract_factory_description">Abstract factory groups object factories that have a common theme</string>
+    <string name="builder_description">Builder constructs complex objects by separating construction and representation.</string>
+    <string name="factory_method_description">Factory method creates objects without specifying the exact class to create.</string>
+    <string name="prototype_description">Prototype creates objects by cloning an existing object.</string>
+    <string name="singleton_description">Singleton restricts object creation for a class to only one instance.</string>
+    <!-- Structural patterns -->
+    <string name="adapter_description">Adapter allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.</string>
+    <string name="bridge_description">Bridge decouples an abstraction from its implementation so that the two can vary independently.</string>
+    <string name="composite_description">Composite composes zero-or-more similar objects so that they can be manipulated as one object.</string>
+    <string name="decorator_description">Decorator dynamically adds/overrides behavior in an existing method of an object.</string>
+    <string name="facade_description">Facade provides a simplified interface to a large body of code.</string>
+    <string name="flyweight_description">Flyweight reduces the cost of creating and manipulating a large number of similar objects.</string>
+    <string name="proxy_description">Proxy provides a placeholder for another object to control access, reduce cost, and reduce complexity.</string>
+    <!-- Behavioral patterns -->
+    <string name="chain_of_responsibility_description">Chain of responsibility delegates commands to a chain of processing objects.</string>
+    <string name="command_description">Command creates objects that encapsulate actions and parameters.</string>
+    <string name="interpreter_description">Interpreter implements a specialized language.</string>
+    <string name="iterator_description">Iterator accesses the elements of an object sequentially without exposing its underlying representation.</string>
+    <string name="mediator_description">Mediator allows loose coupling between classes by being the only class that has detailed knowledge of their methods.</string>
+    <string name="memento_description">Memento provides the ability to restore an object to its previous state (undo).</string>
+    <string name="observer_description">Observer is a publish/subscribe pattern, which allows a number of observer objects to see an event.</string>
+    <string name="state_description">State allows an object to alter its behavior when its internal state changes.</string>
+    <string name="strategy_description">Strategy allows one of a family of algorithms to be selected on-the-fly at runtime.</string>
+    <string name="template_method_description">Template method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.</string>
+    <string name="visitor_description">Visitor separates an algorithm from an object structure by moving the hierarchy of methods into one object.</string>
+    <!-- Patterns end -->
+
+    <!-- Creational patterns -->
+    <string name="abstract_factory_url">https://en.wikipedia.org/wiki/Abstract_factory_pattern</string>
+    <string name="builder_url">https://en.wikipedia.org/wiki/Builder_pattern</string>
+    <string name="factory_method_url">https://en.wikipedia.org/wiki/Factory_method_pattern</string>
+    <string name="prototype_url">https://en.wikipedia.org/wiki/Prototype_pattern</string>
+    <string name="singleton_url">https://en.wikipedia.org/wiki/Singleton_pattern</string>
+    <!-- Structural patterns -->
+    <string name="adapter_url">https://en.wikipedia.org/wiki/Adapter_pattern</string>
+    <string name="bridge_url">https://en.wikipedia.org/wiki/Bridge_pattern</string>
+    <string name="composite_url">https://en.wikipedia.org/wiki/Composite_pattern</string>
+    <string name="decorator_url">https://en.wikipedia.org/wiki/Decorator_pattern</string>
+    <string name="facade_url">https://en.wikipedia.org/wiki/Facade_pattern</string>
+    <string name="flyweight_url">https://en.wikipedia.org/wiki/Flyweight_pattern</string>
+    <string name="proxy_url">https://en.wikipedia.org/wiki/Proxy_pattern</string>
+    <!-- Behavioral patterns -->
+    <string name="chain_of_responsibility_url">https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern</string>
+    <string name="command_url">https://en.wikipedia.org/wiki/Command_pattern</string>
+    <string name="interpreter_url">https://en.wikipedia.org/wiki/Interpreter_pattern</string>
+    <string name="iterator_url">https://en.wikipedia.org/wiki/Iterator_pattern</string>
+    <string name="mediator_url">https://en.wikipedia.org/wiki/Mediator_pattern</string>
+    <string name="memento_url">https://en.wikipedia.org/wiki/Memento_pattern</string>
+    <string name="observer_url">https://en.wikipedia.org/wiki/Observer_pattern</string>
+    <string name="state_url">https://en.wikipedia.org/wiki/State_pattern</string>
+    <string name="strategy_url">https://en.wikipedia.org/wiki/Strategy_pattern</string>
+    <string name="template_method_url">https://en.wikipedia.org/wiki/Template_method_pattern</string>
+    <string name="visitor_url">https://en.wikipedia.org/wiki/Visitor_pattern</string>
+    <!-- Patterns end -->
 </resources>
