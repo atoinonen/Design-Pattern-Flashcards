@@ -15,6 +15,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardColors
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -57,22 +58,26 @@ fun DesignPatternListItem(
         modifier = modifier
             .fillMaxHeight()
             .width(LocalConfiguration.current.screenWidthDp.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = when (designPattern.type) {
-                PatternType.CREATIONAL -> Color(0xFFFAD5D5)
-                PatternType.STRUCTURAL -> Color(0xFFD4FFB1)
-                PatternType.BEHAVIORAL -> Color(0xFFC0D5FF)
-            }
-        )
+//        colors = CardDefaults.cardColors(
+//            containerColor = when (designPattern.type) {
+//                PatternType.CREATIONAL -> Color(0xFFFAD5D5)
+//                PatternType.STRUCTURAL -> Color(0xFFD4FFB1)
+//                PatternType.BEHAVIORAL -> Color(0xFFC0D5FF)
+//            }
+//        )
     ) {
         Column() {
             Text(
                 text = stringResource(id = designPattern.name),
-                fontSize = 30.sp,
+                style = MaterialTheme.typography.displayMedium,
                 modifier = Modifier.align(Alignment.CenterHorizontally)
             )
-            Text(text = stringResource(id = designPattern.description))
-            Text(text = stringResource(id = designPattern.url))
+            Text(
+                text = stringResource(id = designPattern.description),
+                style = MaterialTheme.typography.bodyMedium)
+            Text(
+                text = stringResource(id = designPattern.url),
+                style = MaterialTheme.typography.bodySmall)
         }
     }
 }
