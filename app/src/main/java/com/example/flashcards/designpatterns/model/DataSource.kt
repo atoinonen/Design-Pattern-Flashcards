@@ -1,10 +1,9 @@
 package com.example.flashcards.designpatterns.model
 
-import androidx.compose.ui.res.stringResource
 import com.example.flashcards.designpatterns.R
 
 object DesignPatternsRepository {
-    val designPatterns = listOf<DesignPattern>(
+    val designPatterns = listOf(
         //Creational patterns
         DesignPattern(
             name = R.string.abstract_factory,
@@ -146,5 +145,5 @@ object DesignPatternsRepository {
             url = R.string.visitor_url,
             type = PatternType.BEHAVIORAL
         )
-        )
+    )
 }

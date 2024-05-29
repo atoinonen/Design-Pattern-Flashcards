@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Flashcards(modifier: Modifier = Modifier) {
-    DesignPatternList(designPatterns = DesignPatternsRepository.designPatterns)
+    DesignPatternList(designPatterns = DesignPatternsRepository.designPatterns, modifier = modifier)
 }
 
 @Preview(showSystemUi = true)
