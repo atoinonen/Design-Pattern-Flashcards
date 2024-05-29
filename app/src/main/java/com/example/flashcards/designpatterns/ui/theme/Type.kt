@@ -19,7 +19,7 @@ val Typography = Typography(
     bodyMedium = TextStyle(
         fontFamily = SourceCodePro,
         fontWeight = FontWeight.W400,
-        fontSize = 16.sp
+        fontSize = 20.sp
     ),
     bodySmall = TextStyle(
         fontFamily = SourceCodePro,
@@ -29,6 +29,6 @@ val Typography = Typography(
     displayMedium = TextStyle(
         fontFamily = SourceCodePro,
         fontWeight = FontWeight.W600,
-        fontSize = 30.sp
+        fontSize = 36.sp
     )
 )
