@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
@@ -57,14 +58,20 @@ fun DesignPatternListItem(
     Card(
         modifier = modifier
             .fillMaxHeight()
-            .width(LocalConfiguration.current.screenWidthDp.dp),
-//        colors = CardDefaults.cardColors(
-//            containerColor = when (designPattern.type) {
-//                PatternType.CREATIONAL -> Color(0xFFFAD5D5)
-//                PatternType.STRUCTURAL -> Color(0xFFD4FFB1)
-//                PatternType.BEHAVIORAL -> Color(0xFFC0D5FF)
-//            }
-//        )
+            .width(LocalConfiguration.current.screenWidthDp.dp)
+            .padding(8.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = when (designPattern.type) {
+                PatternType.CREATIONAL -> MaterialTheme.colorScheme.primaryContainer
+                PatternType.STRUCTURAL -> MaterialTheme.colorScheme.secondaryContainer
+                PatternType.BEHAVIORAL -> MaterialTheme.colorScheme.tertiaryContainer
+            },
+            contentColor = when (designPattern.type) {
+                PatternType.CREATIONAL -> MaterialTheme.colorScheme.primary
+                PatternType.STRUCTURAL -> MaterialTheme.colorScheme.secondary
+                PatternType.BEHAVIORAL -> MaterialTheme.colorScheme.tertiary
+            }
+        )
     ) {
         Column() {
             Text(
